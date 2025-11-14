@@ -1,136 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Talaak.com - Kyu, katgya?</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1 class="main-title">Kyu, katgya?</h1>
-            <p class="subtitle">Talaak.com - Because relationships are temporary, but divorce is forever</p>
-        </header>
+      <header>
+        <h1 class="main-title">Kyu, katgya?</h1>
+        <p class="subtitle">
+          Talaak.com - Because relationships are temporary, but divorce is
+          forever
+        </p>
+      </header>
 
-        <main>
-            <div class="content-section">
-                <h2 class="section-title">Kyu, katgya?</h2>
-                <p class="hero-text">
-                    Relationship <strong>gand</strong> mein chala gaya? <em>Bohot mast hai, yaar!</em>
-                </p>
-                <p class="sub-hero">
-                    Millions of <em>chutiye</em>, <strong>gandu</strong>, and <strong>gandmarike</strong> 
-                    like you found their way here. <strong>Arre bhai</strong>, you're not alone!
-                </p>
-                <p class="cta-text">
-                    <strong>Oye</strong>, don't be a <em>loduchod</em>! Sign up now, <strong>bhenchod</strong>!
-                </p>
+      <main>
+         <div class="content-section">
+           <h2 class="section-title">Kyu, katgya?</h2>
+           <p class="hero-text">
+             Relationship <strong>gand</strong> mein chala gaya? <em>Bohot mast hai, yaar!</em>
+           </p>
+           <p class="cta-text">
+             <strong>Oye</strong>, don't be a <em>loduchod</em>! Sign up now, <strong>bhenchod</strong>!
+           </p>
+         </div>
+
+        <div class="signup-section">
+          <h2 class="section-title">Sign Up Kar Le, <em>Chutmarike</em></h2>
+          <form id="signupForm" class="signup-form">
+            <div class="form-group">
+              <label for="cardNumber">Credit Card Number *</label>
+              <input
+                type="text"
+                id="cardNumber"
+                name="cardNumber"
+                placeholder="1234 5678 9012 3456"
+                required
+              />
             </div>
-
-            <div class="signup-section">
-                <h2 class="section-title">Sign Up Kar Le, <em>Chutmarike</em></h2>
-                <form id="signupForm" class="signup-form">
-                    <div class="form-group">
-                        <label for="cardNumber">Credit Card Number *</label>
-                        <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="expiry">Expiry Date *</label>
-                        <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="cvv">CVV *</label>
-                        <input type="text" id="cvv" name="cvv" placeholder="123" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="cardName">Name on Card *</label>
-                        <input type="text" id="cardName" name="cardName" placeholder="Your name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="amount">Kitna <strong>gand</strong> marwana hai? *</label>
-                        <input type="text" id="amount" name="amount" placeholder="₹ / $ / €" required>
-                    </div>
-                    <button type="submit" class="submit-btn">Divorce Kar Le</button>
-                </form>
-                <p class="disclaimer">
-                    By signing up, you're a <em>chutiya</em>, <strong>gandu</strong>, <em>chutmarike</em>, 
-                    <strong>bhosadpappu</strong>, and <em>lundfakeer</em>. All payments final, <strong>bhenchod</strong>.
-                </p>
+            <div class="form-group">
+              <label for="expiry">Expiry Date *</label>
+              <input
+                type="text"
+                id="expiry"
+                name="expiry"
+                placeholder="MM/YY"
+                required
+              />
             </div>
-
-            <div class="features-section">
-                <h2 class="section-title">Why Talaak.com?</h2>
-                <div class="features">
-                    <div class="feature-card">
-                        <h3>⚡ Instant</h3>
-                        <p>Faster than your <strong>saali/saale</strong> can say <em>"main tumse pyaar karti thi"</em>, <strong>bhenchod</strong>!</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>💰 Premium</h3>
-                        <p>Pay more than your wedding. <strong>Kya logic hai, bhenchod!</strong></p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>😈 Zero Support</h3>
-                        <p>We don't care, <em>yaar</em>. You're on your own, <strong>gandmarike</strong>!</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>🎭 Drama</h3>
-                        <p>More than <strong>saas-bahu</strong> serial. <strong>Maza aayega, yaar</strong>!</p>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="cvv">CVV *</label>
+              <input
+                type="text"
+                id="cvv"
+                name="cvv"
+                placeholder="123"
+                required
+              />
             </div>
-
-            <div class="testimonial-section">
-                <h2 class="section-title">What Our <em>Chutiye</em> Say</h2>
-                <div class="testimonials">
-                    <div class="testimonial">
-                        <p>"<strong>Bhenchod</strong>, best decision! Lost my <strong>saali</strong> wife and money. 
-                        <strong>Mast</strong> service!" - Rajesh, <em>Delhi</em></p>
-                    </div>
-                    <div class="testimonial">
-                        <p>"10/10 would divorce again, <strong>madarchod</strong>! <strong>Mast</strong> hai!" 
-                        - Priya, <em>Delhi</em></p>
-                    </div>
-                    <div class="testimonial">
-                        <p>"They took my money but I'm free from that <strong>harami</strong>! 
-                        <strong>Worth it, bhenchod</strong>!" - Anonymous</p>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="cardName">Name on Card *</label>
+              <input
+                type="text"
+                id="cardName"
+                name="cardName"
+                placeholder="Your name"
+                required
+              />
             </div>
-
-            <div class="funding-section">
-                <h2 class="section-title">We're Hiring, <em>Bhenchod</em></h2>
-                <p class="funding-intro">
-                    Need help. Join us.
-                </p>
-                <div class="hiring-grid">
-                    <div class="hiring-card">
-                        <h3>🎨 UI Designer</h3>
-                        <p>Make it better. Mobile-first.</p>
-                    </div>
-                    <div class="hiring-card">
-                        <h3>💰 Accountants</h3>
-                        <p>Handle money. Don't lose it.</p>
-                    </div>
-                    <div class="hiring-card highlight">
-                        <h3>⚖️ Legal Advisors</h3>
-                        <p><strong>Priority.</strong> Navigate law. Scale. We need you most.</p>
-                    </div>
-                </div>
-                <p class="funding-cta">
-                    Interested? <strong>Let's talk, yaar</strong>.
-                </p>
+            <div class="form-group">
+              <label for="amount"
+                >Kitna <strong>gand</strong> marwana hai? *</label
+              >
+              <input
+                type="text"
+                id="amount"
+                name="amount"
+                placeholder="₹ / $ / €"
+                required
+              />
             </div>
-        </main>
+            <button type="submit" class="submit-btn">Divorce Kar Le</button>
+          </form>
+          <p class="disclaimer">
+            By signing up, you're a <em>chutiya</em>, <strong>gandu</strong>,
+            <em>chutmarike</em>, <strong>bhosadpappu</strong>, and
+            <em>lundfakeer</em>. All payments final, <strong>bhenchod</strong>.
+          </p>
+        </div>
 
-        <footer>
-            <p class="footer-text">Made with <strong>lund</strong> from Krishna Nagar, <em>bhenchod</em>!</p>
-            <p class="footer-copyright">&copy; 2024 Talaak.com</p>
-        </footer>
+        <div class="features-section">
+          <h2 class="section-title">Why Talaak.com?</h2>
+          <div class="features">
+            <div class="feature-card">
+              <h3>⚡ Instant</h3>
+              <p>
+                Faster than your <strong>saali/saale</strong> can say
+                <em>"main tumse pyaar karti thi"</em>,
+                <strong>bhenchod</strong>!
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>💰 Premium</h3>
+              <p>
+                Pay more than your wedding.
+                <strong>Kya logic hai, bhenchod!</strong>
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>😈 Zero Support</h3>
+              <p>
+                We don't care, <em>yaar</em>. You're on your own,
+                <strong>gandmarike</strong>!
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>🎭 Drama</h3>
+              <p>
+                More than <strong>saas-bahu</strong> serial.
+                <strong>Maza aayega, yaar</strong>!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-section">
+          <h2 class="section-title">What Our <em>Chutiye</em> Say</h2>
+          <div class="testimonials">
+            <div class="testimonial">
+              <p>
+                "<strong>Bhenchod</strong>, best decision! Lost my
+                <strong>saali</strong> wife and money.
+                <strong>Mast</strong> service!" - Rajesh, <em>Delhi</em>
+              </p>
+            </div>
+            <div class="testimonial">
+              <p>
+                "10/10 would divorce again, <strong>madarchod</strong>!
+                <strong>Mast</strong> hai!" - Priya, <em>Delhi</em>
+              </p>
+            </div>
+            <div class="testimonial">
+              <p>
+                "They took my money but I'm free from that
+                <strong>harami</strong>! <strong>Worth it, bhenchod</strong>!" -
+                Anonymous
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="funding-section">
+          <h2 class="section-title">We're Hiring, <em>Bhenchod</em></h2>
+          <p class="funding-intro">Need help. Join us.</p>
+          <div class="hiring-grid">
+            <div class="hiring-card">
+              <h3>🎨 UI Designer</h3>
+              <p>Make it better. Mobile-first.</p>
+            </div>
+            <div class="hiring-card">
+              <h3>💰 Accountants</h3>
+              <p>Handle money. Don't lose it.</p>
+            </div>
+            <div class="hiring-card highlight">
+              <h3>⚖️ Legal Advisors</h3>
+              <p>
+                <strong>Priority.</strong> Navigate law. Scale. We need you
+                most.
+              </p>
+            </div>
+          </div>
+          <p class="funding-cta">
+            Interested? <strong>Let's talk, yaar</strong>.
+          </p>
+        </div>
+      </main>
+
+      <footer>
+        <p class="footer-text">
+          Made with <strong>lund</strong> from Krishna Nagar, <em>bhenchod</em>!
+        </p>
+        <p class="footer-copyright">&copy; 2024 Talaak.com</p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
